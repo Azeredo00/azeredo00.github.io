@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+#main{
+    /*main, caixa rosa, tem tamanho de 80% da tela do usuário*/
+    height: 80vh;
+    background-color: rgb(255, 128, 128);
+}
+#circle{
+    position: absolute;
+    height: 60vh;    
+    width: 60vh;
+    top: 40vh;
+    left: 50vw;
+    border: dashed cadetblue 3px;
+    /* transform: translate move a div tantos % no eixo x e y baseado na posição original*/
+    transform: translate(-50%, -50%);
+    border-radius: 50%;    
+    background-color: aquamarine;
+}
+#personagens{
+    background-color: rgb(202, 79, 206);
+}
+#bonaria{
+    max-width: fit-content;
+    margin: auto;
+}
+#console{
+    height: 10vh;
+    background-color: aquamarine;
+}
